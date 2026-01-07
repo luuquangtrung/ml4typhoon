@@ -3,14 +3,15 @@ From Reanalysis to Climatology: Deep Learning Reconstruction of Tropical Cycloge
 
 ## 1. Introduction
 
-This code repository provides (i) a workflow to generate meteorological observation samples from different climatological datasets; and (ii) a deep learning framework to exploit the generated data, based on RestNet-18 architecture.
+This code repository provides (*i*) a workflow to generate meteorological observation samples from different climatological datasets; and (*ii*) a deep learning framework to exploit the generated data, based on RestNet-18 architecture.
 
 For the former, two climatological datasets are used:
-
-MERRA-2 by the National Aeronautics and Space Administration (NASA) (Gelaro et al., 2017) and
-Tropical cyclone information from the International Best Track Archive for Climate Stewardship (IBTrACS) (Knapp et al., 2010).
+* MERRA-2 by the National Aeronautics and Space Administration (NASA) (Gelaro et al., 2017) and
+* Tropical cyclone information from the International Best Track Archive for Climate Stewardship (IBTrACS) (Knapp et al., 2010).
 
 The standardized datasets will be used for subsequent ML tasks in the latter framework.
+
+This repository has been submitted to Zenodo for official reference: https://doi.org/10.5281/zenodo.17459622.
 
 ## 2. Input data
 ### 2.1. IBTrACS
@@ -204,7 +205,7 @@ pip install pandas tqdm numpy torch sklearn open-cv2 xarray pandarallel calendar
 
 ##### Running script
 
-####### Prepare data
+**Prepare data**
 
 Data should be in NetCDF format and organized by a csv file called "data_path", which contain the path of each sample, its metadata (position, step, ...).
 Run this command to generate train, val and test data in csv format for a single predicting-step.
@@ -218,7 +219,7 @@ $step: the step forecast, a step stand for 3 hours predict
 $ratio: the ratio for under resampling the dataset
 $dst: output directory
 
-####### Modeling
+**Modeling**
 
 Run this command to train model from scratch
 ```
@@ -230,7 +231,7 @@ where:
 * $weight: the class weight assigned for positive sample, if set to 0, the class weight is computed balancedly
 * $map_path: the csv file containing the path(s) of every sample for map evaluating. 
 
-####### Evaluating
+**Evaluating**
 
 - Run this command to evaluate model performance on selected area.
 ```
