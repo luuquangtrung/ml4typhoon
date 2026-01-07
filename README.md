@@ -1,5 +1,5 @@
 # ml4typhoon
-From Reanalysis to Climatology: Deep Learning Reconstruction of Tropical Cyclogenesis in the Western North Pacific
+Typhoon formation prediction using machine learning
 
 ## 1. Introduction
 
