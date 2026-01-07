@@ -1,0 +1,2 @@
+FNL_LAT = 17
+FNL_LON = 17
