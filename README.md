@@ -248,7 +248,7 @@ where:
 * `$temp`: the csv template of map prediction for every forecasting step in range from 2 to 18. This should be a csv file path with the step forecast left in {}.
 * `$out`: the output directory where the figure will be exported
 
-## How to cite our Work
+## How to cite our work
 1. Duc-Trong Le, Tran-Binh Dang, Anh-Duc Hoang Gia, Duc-Hai Nguyen, Minh-Hoa Tien, Quang-Trung Luu, Quang-Lap Luu, Minh-Thanh Nguyen, Truong Ngo, Tai-Hung Nguyen, Thanh T. N. Nguyen, and Chanh Kieu, "Data Processing for TCG-Net: Reconstructing Tropical Cyclogenesis Climatology," https://doi.org/10.5281/zenodo.15640334, 2025.
 ```
 @misc{le2025zenodo,
