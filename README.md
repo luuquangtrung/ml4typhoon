@@ -250,5 +250,32 @@ where:
 
 ## How to cite our Work
 1. Duc-Trong Le, Tran-Binh Dang, Anh-Duc Hoang Gia, Duc-Hai Nguyen, Minh-Hoa Tien, Quang-Trung Luu, Quang-Lap Luu, Minh-Thanh Nguyen, Truong Ngo, Tai-Hung Nguyen, Thanh T. N. Nguyen, and Chanh Kieu, "Data Processing for TCG-Net: Reconstructing Tropical Cyclogenesis Climatology," https://doi.org/10.5281/zenodo.15640334, 2025.
-2. Duc-Trong Le, Tran-Binh Dang, Anh-Duc Hoang Gia, Duc-Hai Nguyen, Minh-Hoa Tien, Quang-Trung Luu, Quang-Lap Luu, Tai-Hung Nguyen, Thanh T. N. Nguyen, and Chanh Kieu, "From Reanalysis to Climatology: Deep Learning Reconstruction of Tropical Cyclogenesis in the Western North Pacific," submitted to Geoscientific Model Development, 2025.
+```
+@misc{le2025zenodo,
+  author = {Le, Duc Trong and
+            Dang, Tran-Binh and
+            Hoang Gia, Anh-Duc and
+            Nguyen, Duc-Hai and
+            Tien, Minh-Hoa and
+            Luu, Quang-Trung and
+            Luu, Quang-Lap and
+            Nguyen, Tai-Hung and
+            Nguyen, Thi Nhat Thanh and
+            Kieu, Chanh},
+  title = {Data Processing for {TCG-Net}: Reconstructing Tropical Cyclogenesis Climatology},
+  year = {2025},
+  publisher = {Zenodo},
+  journal = {Zenodo},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.15640334}}
+}
+```
+2. Chanh Kieu, Thanh T. N. Nguyen, Duc-Trong Le, Anh-Duc Hoang Gia, Quang-Lap Luu, Tran-Binh Dang, Truong Ngo, Quang-Trung Luu, Tien Du, and Khiem Mai, "Reconstructing Pre-Satellite Tropical Cyclogenesis Climatology Using Deep Learning," *arXiv preprint arXiv:2512.17711*, 2025.
 
+```
+@article{kieu2025reconstructing,
+  title={Reconstructing Pre-Satellite Tropical Cyclogenesis Climatology Using Deep Learning},
+  author={Kieu, Chanh and Nguyen, Thanh TN and Le, Duc-Trong and Hoang, Duc Gia-Anh and Luu, Quang-Lap and Dang, Binh T and Ngo, Truong X and Luu, Quang-Trung and Du, Tien D and Mai, Khiem V},
+  journal={arXiv preprint arXiv:2512.17711},
+  year={2025}
+}
+```
