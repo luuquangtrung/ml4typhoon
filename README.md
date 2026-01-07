@@ -18,7 +18,7 @@ This repository has been submitted to Zenodo for official reference: https://doi
 
 The IBTrACS dataset provides information on tropical cyclone positions. It is structured on a two-dimensional grid with a longitude range of 0 to +360 degrees (0.001-degree resolution) and a latitude range from -90 to +90 degrees (also 0.001-degree resolution). The data span from the 1980s to December 31, 2022, and are sampled every 3 hours. The IBTrACS dataset is stored in a single CSV file with a total size of approximately 300 MB.
 
-This dataset is included in the zip file (directory: ./data/ibtracs.ALL.list.v04r00.zip). 
+This dataset is included in the zip file (directory: `./data/ibtracs.ALL.list.v04r00.zip`). 
 
 ### 2.1. NASA-MERRA2
 
